@@ -4,14 +4,14 @@ body{
   background-color: lightgray;
 }
 
-li{
+/*li{
   display:inline-block;
   width: 27%;
   text-align: center;
   height: 100px;
   background: yellow;
   line-height: 100px;
-}
+}*/
 
 header {
   background-color: rgba(0, 255, 132, 0.766);
@@ -19,6 +19,12 @@ header {
 
 nav {
   background-color: rgb(230, 81, 81);
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
 }
 
 main {
@@ -31,4 +37,22 @@ footer {
 
 p {
   line-height: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;    
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

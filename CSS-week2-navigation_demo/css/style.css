@@ -1,18 +1,18 @@
-/* main {
+main {
   min-height: 100px;
-} */
+}
 
-/* nav a {
+nav a {
   text-decoration: none;
   background-color: yellow;
-} */
+}
 
 
-/* ul {
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-} */
+}
 
 /* li {
     list-style-type: none;
